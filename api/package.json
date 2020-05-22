@@ -2,9 +2,6 @@
   "name": "functions",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "0.12.x"
-  },
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
