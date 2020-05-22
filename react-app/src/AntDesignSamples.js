@@ -1,5 +1,6 @@
 import React from 'react';
 import { Breadcrumb, Calendar, Tabs, Table, Timeline } from 'antd';
+import { Tag, Divider } from 'antd';
 
 import './App.css';
 
@@ -69,6 +70,29 @@ const AntDesignSamples = () => (
         </TabPane>
         <TabPane tab="Table" key="2">
           <Table dataSource={dataSource} columns={columns} />;
+        </TabPane>
+        <TabPane tab="Tags" key="4">
+          <Divider orientation="left">Presets</Divider>
+          <div>
+            <Tag color="magenta">magenta</Tag>
+            <Tag color="red">red</Tag>
+            <Tag color="volcano">volcano</Tag>
+            <Tag color="orange">orange</Tag>
+            <Tag color="gold">gold</Tag>
+            <Tag color="lime">lime</Tag>
+            <Tag color="green">green</Tag>
+            <Tag color="cyan">cyan</Tag>
+            <Tag color="blue">blue</Tag>
+            <Tag color="geekblue">geekblue</Tag>
+            <Tag color="purple">purple</Tag>
+          </div>
+          <Divider orientation="left">Custom</Divider>
+          <div>
+            <Tag color="#f50">#f50</Tag>
+            <Tag color="#2db7f5">#2db7f5</Tag>
+            <Tag color="#87d068">#87d068</Tag>
+            <Tag color="#108ee9">#108ee9</Tag>
+          </div>
         </TabPane>
         <TabPane tab="Timeline" key="3">
           <Timeline>
