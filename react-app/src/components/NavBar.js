@@ -11,9 +11,13 @@ const NavBar = (props) => (
       <NavLink to="/about" activeClassName="active-link">
         About
       </NavLink>
+      <NavLink to="/table" activeClassName="active-link">
+        Table
+      </NavLink>
     </ul>
     {props.children}
   </nav>
+
 );
 
 export default NavBar;
